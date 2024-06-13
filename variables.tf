@@ -1,8 +1,9 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
-variable "GOOGLE_CREDENTIALS" {
-  type = string
-}
+# variable "GOOGLE_CREDENTIALS" {
+#   type = string
+# }
+
 variable "tfc_gcp_audience" {
   type        = string
   default     = ""
